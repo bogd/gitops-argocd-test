@@ -3,5 +3,5 @@ kind: ConfigMap
 metadata:
   name: secondapp-config
 data:
-  bgcolor: '#0000FF'
+  bgcolor: '#00FF00'
 
