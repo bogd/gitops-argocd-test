@@ -3,5 +3,5 @@ kind: ConfigMap
 metadata:
   name: myapp 
 data:
-  bgcolor: '#00FF00'
+  bgcolor: '#FF0000'
 
