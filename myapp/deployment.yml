@@ -16,4 +16,10 @@ spec:
       containers:
       - name: pws
         image: bogd/python-webserver
+        env:
+        - name: COLOR
+          valueFrom:
+            configMapKeyRef:
+              name: myapp
+              key: bgcolor
 
