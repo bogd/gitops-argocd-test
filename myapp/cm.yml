@@ -1,7 +1,7 @@
 apiVersion: v1
 kind: ConfigMap
 metadata:
-  name: secondapp-config
+  name: myapp 
 data:
   bgcolor: '#00FF00'
 
